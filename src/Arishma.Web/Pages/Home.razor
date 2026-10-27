@@ -1,0 +1,12 @@
+@page "/"
+<PageTitle>Arishma Lead Workspace</PageTitle>
+<MudText Typo="Typo.h4" Class="mb-2">Find leads. Verify them. Reach them. Close them.</MudText>
+<MudText Class="mb-6">Phase 0 scaffold, restructured: each microservice is its own repo and solution (DDD), with a Postgres / MySQL switch per service. The frontend calls api.arishmasolutions.com (gateway), never a service directly. No live Apify run, email send, or payment yet.</MudText>
+<MudGrid>
+    <MudItem xs="12" sm="6" md="4"><MudCard><MudCardContent><MudText Typo="Typo.h6">Leads</MudText><MudText>leads.arishmasolutions.com — repo: arishma-leads-service</MudText></MudCardContent></MudCard></MudItem>
+    <MudItem xs="12" sm="6" md="4"><MudCard><MudCardContent><MudText Typo="Typo.h6">Verify</MudText><MudText>verify.arishmasolutions.com — repo: arishma-verify-service</MudText></MudCardContent></MudCard></MudItem>
+    <MudItem xs="12" sm="6" md="4"><MudCard><MudCardContent><MudText Typo="Typo.h6">Outreach</MudText><MudText>outreach.arishmasolutions.com — repo: arishma-outreach-service</MudText></MudCardContent></MudCard></MudItem>
+    <MudItem xs="12" sm="6" md="4"><MudCard><MudCardContent><MudText Typo="Typo.h6">CRM</MudText><MudText>crm.arishmasolutions.com — repo: arishma-crm-service</MudText></MudCardContent></MudCard></MudItem>
+    <MudItem xs="12" sm="6" md="4"><MudCard><MudCardContent><MudText Typo="Typo.h6">Billing</MudText><MudText>billing.arishmasolutions.com — repo: arishma-billing-service</MudText></MudCardContent></MudCard></MudItem>
+    <MudItem xs="12" sm="6" md="4"><MudCard><MudCardContent><MudText Typo="Typo.h6">Auth + Gateway</MudText><MudText>auth. / api. — repos: arishma-auth-service, arishma-gateway</MudText></MudCardContent></MudCard></MudItem>
+</MudGrid>
